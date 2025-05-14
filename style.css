@@ -1,0 +1,101 @@
+/* Reset dan dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Calibri, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header dan Footer */
+header,
+footer {
+  background: linear-gradient(to right, #004080, #0066cc);
+  color: white;
+  padding: 1.5em 1em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.2em;
+}
+
+header p {
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+/* Search Input Styling */
+#searchInput {
+  margin-top: 1em;
+  padding: 0.5em;
+  font-size: 1.1em;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9em;
+  margin-top: 3em;
+}
+
+/* Konten Utama */
+main {
+  max-width: 960px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+/* Kartu Wisata */
+.wisata-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wisata-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul dan Deskripsi */
+.wisata-item h2 {
+  color: #004080;
+  margin-bottom: 0.5em;
+}
+
+.wisata-item p {
+  margin-bottom: 0.5em;
+}
+
+.wisata-item p strong {
+  color: #006699;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  .wisata-item {
+    padding: 1.2em;
+  }
+
+  main {
+    padding: 0 1em;
+  }
+}

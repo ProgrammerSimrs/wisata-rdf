@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informasi Wisata Lokal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/rdflib/dist/rdflib.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Informasi Wisata Lokal</h1>
+    <p>Portal informasi tempat wisata lokal berbasis RDF.</p>
+
+    <!-- Search Form -->
+    <input type="text" id="searchInput" placeholder="Cari tempat wisata..." oninput="performSearch()">
+  </header>
+
+  <main id="mainContent">
+    <!-- Konten tempat wisata akan dimuat di sini secara dinamis -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wisata Lokal Semantik</p>
+  </footer>
+
+  <!-- JavaScript for search functionality -->
+  <script>
+    const store = $rdf.graph();
+    const ttlUrl = 'https://programmersimrs.github.io/wisata-rdf/wisata-lokal.ttl'; // Pastikan file ini berada di server yang sama
+
+    const SCHEMA = $rdf.Namespace('http://schema.org/');
+    let wisataData = [];  // Menyimpan data tempat wisata
+
+    // Gunakan fetch dengan cara yang benar
+    fetch(ttlUrl)
+      .then(response => response.text())
+      .then(text => {
+        $rdf.parse(text, store, ttlUrl, 'text/turtle');
+        const wisataList = store.each(undefined, $rdf.sym('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), SCHEMA('TouristAttraction'));
+
+        wisataList.forEach(subject => {
+          const name = store.any(subject, SCHEMA('name'));
+          const desc = store.any(subject, SCHEMA('description'));
+          const location = store.any(subject, SCHEMA('location'));
+          const category = store.any(subject, SCHEMA('category'));
+
+          // Menyimpan data wisata ke dalam array
+          wisataData.push({
+            name: name ? name.value : 'Tanpa Nama',
+            description: desc ? desc.value : '-',
+            location: location ? location.value : '-',
+            category: category ? category.value : '-',
+            element: createWisataElement(name ? name.value : 'Tanpa Nama', desc ? desc.value : '-', location ? location.value : '-', category ? category.value : '-')
+          });
+
+          // Menambahkan elemen wisata ke mainContent
+          document.getElementById('mainContent').appendChild(wisataData[wisataData.length - 1].element);
+
+        });
+      })
+      .catch(error => {
+        console.error('Gagal memuat file RDF:', error);
+      });
+
+    // Fungsi untuk membuat elemen wisata
+    function createWisataElement(name, desc, location, category) {
+      const section = document.createElement('section');
+      section.className = 'wisata-item';
+      section.innerHTML = `
+        <div class="info">
+          <h2>${name}</h2>
+          <p><strong>Deskripsi:</strong> ${desc}</p>
+          <p><strong>Lokasi:</strong> ${location}</p>
+          <p><strong>Jenis:</strong> ${category}</p>
+        </div>
+      `;
+      return section;
+    }
+
+    // Fungsi untuk melakukan pencarian
+    function performSearch() {
+      const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+
+      // Menyaring wisata berdasarkan nama, deskripsi, lokasi, atau kategori
+      wisataData.forEach(item => {
+        const name = item.name.toLowerCase();
+        const description = item.description.toLowerCase();
+        const location = item.location.toLowerCase();
+        const category = item.category.toLowerCase();
+
+        // Menampilkan atau menyembunyikan elemen berdasarkan pencarian
+        if (name.includes(searchQuery) || description.includes(searchQuery) || location.includes(searchQuery) || category.includes(searchQuery)) {
+          item.element.style.display = 'block';
+        } else {
+          item.element.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
