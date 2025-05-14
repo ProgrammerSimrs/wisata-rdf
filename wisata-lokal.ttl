@@ -60,20 +60,17 @@
     schema:location "Bangli, Bali" ;
     schema:category "Desa Wisata" .
 
-
 <http://example.com/wisata/pulau-komodo> a schema:TouristAttraction ;
     schema:name "Pulau Komodo" ;
     schema:description "Rumah bagi komodo, kadal terbesar di dunia, dan objek wisata alam." ;
     schema:location "Nusa Tenggara Timur" ;
     schema:category "Taman Nasional" .
 
-
 <http://example.com/wisata/pulau-bali> a schema:TouristAttraction ;
     schema:name "Pulau Bali" ;
     schema:description "Destinasi wisata terkenal dengan pantainya, budaya, dan keindahan alamnya." ;
     schema:location "Bali" ;
     schema:category "Pulau" .
-
 
 <http://example.com/wisata/candi-prambanan> a schema:TouristAttraction ;
     schema:name "Candi Prambanan" ;
@@ -87,13 +84,11 @@
     schema:location "Bogor, Jawa Barat" ;
     schema:category "Taman Safari" .
 
-
 <http://example.com/wisata/pulau-belitung> a schema:TouristAttraction ;
     schema:name "Pulau Belitung" ;
     schema:description "Pulau dengan pantai-pantai cantik dan batu granit raksasa." ;
     schema:location "Belitung, Bangka Belitung" ;
     schema:category "Pulau" .
-
 
 <http://example.com/wisata/gunung-rinjani> a schema:TouristAttraction ;
     schema:name "Gunung Rinjani" ;
@@ -101,13 +96,11 @@
     schema:location "Lombok, Nusa Tenggara Barat" ;
     schema:category "Gunung" .
 
-
 <http://example.com/wisata/pantai-kuta> a schema:TouristAttraction ;
     schema:name "Pantai Kuta" ;
     schema:description "Pantai terkenal di Bali, populer di kalangan wisatawan mancanegara dengan ombak besar dan kehidupan malam yang meriah." ;
     schema:location "Badung, Bali" ;
     schema:category "Pantai" .
-
 
 <http://example.com/wisata/taman-nasional-bromo-tengger-semeru> a schema:TouristAttraction ;
     schema:name "Taman Nasional Bromo Tengger Semeru" ;
@@ -115,13 +108,11 @@
     schema:location "Probolinggo, Jawa Timur" ;
     schema:category "Taman Nasional" .
 
-
 <http://example.com/wisata/gunung-merapi> a schema:TouristAttraction ;
     schema:name "Gunung Merapi" ;
     schema:description "Gunung berapi aktif yang terkenal dengan letusan dahsyatnya dan pemandangan menakjubkan." ;
     schema:location "Yogyakarta / Jawa Tengah" ;
     schema:category "Gunung" .
-
 
 <http://example.com/wisata/pulau-derawan> a schema:TouristAttraction ;
     schema:name "Pulau Derawan" ;
@@ -129,9 +120,188 @@
     schema:location "Berau, Kalimantan Timur" ;
     schema:category "Pulau" .
 
-
 <http://example.com/wisata/pulau-weh> a schema:TouristAttraction ;
     schema:name "Pulau Weh" ;
     schema:description "Pulau kecil di Aceh yang terkenal dengan keindahan alam bawah lautnya dan lokasi menyelam yang luar biasa." ;
     schema:location "Sabang, Aceh" ;
+    schema:category "Pulau" .
+
+<http://example.com/wisata/pulau-harapan> a schema:TouristAttraction ;
+    schema:name "Pulau Harapan" ;
+    schema:description "Pulau di Kepulauan Seribu yang terkenal dengan keindahan laut dan terumbu karangnya." ;
+    schema:location "Kepulauan Seribu, DKI Jakarta" ;
+    schema:category "Pulau" .
+
+<http://example.com/wisata/pantai-pink> a schema:TouristAttraction ;
+    schema:name "Pantai Pink" ;
+    schema:description "Pantai dengan pasir berwarna merah muda yang langka di dunia." ;
+    schema:location "Lombok Timur, Nusa Tenggara Barat" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/goa-jomblang> a schema:TouristAttraction ;
+    schema:name "Goa Jomblang" ;
+    schema:description "Goa vertikal yang menampilkan cahaya surga di tengah hutan purba." ;
+    schema:location "Gunung Kidul, Yogyakarta" ;
+    schema:category "Goa" .
+
+<http://example.com/wisata/bukit-lawang> a schema:TouristAttraction ;
+    schema:name "Bukit Lawang" ;
+    schema:description "Pintu gerbang menuju Taman Nasional Gunung Leuser dan tempat melihat orangutan liar." ;
+    schema:location "Langkat, Sumatera Utara" ;
+    schema:category "Ekowisata" .
+
+<http://example.com/wisata/pantai-sawarna> a schema:TouristAttraction ;
+    schema:name "Pantai Sawarna" ;
+    schema:description "Pantai tersembunyi dengan ombak besar dan formasi karang menakjubkan." ;
+    schema:location "Lebak, Banten" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/danau-labuan-cermin> a schema:TouristAttraction ;
+    schema:name "Danau Labuan Cermin" ;
+    schema:description "Danau dua rasa dengan air tawar di atas dan air asin di bawah." ;
+    schema:location "Berau, Kalimantan Timur" ;
+    schema:category "Danau" .
+
+<http://example.com/wisata/curug-cilember> a schema:TouristAttraction ;
+    schema:name "Curug Cilember" ;
+    schema:description "Air terjun alami dengan tujuh tingkatan di kawasan Puncak." ;
+    schema:location "Cisarua, Bogor" ;
+    schema:category "Air Terjun" .
+
+<http://example.com/wisata/kepulauan-kei> a schema:TouristAttraction ;
+    schema:name "Kepulauan Kei" ;
+    schema:description "Kepulauan di Maluku dengan pantai berpasir putih dan laut jernih." ;
+    schema:location "Maluku Tenggara" ;
+    schema:category "Kepulauan" .
+
+<http://example.com/wisata/gunung-prau> a schema:TouristAttraction ;
+    schema:name "Gunung Prau" ;
+    schema:description "Gunung favorit pendaki pemula dengan pemandangan sunrise Dieng." ;
+    schema:location "Dieng, Jawa Tengah" ;
+    schema:category "Gunung" .
+
+<http://example.com/wisata/danau-sentani> a schema:TouristAttraction ;
+    schema:name "Danau Sentani" ;
+    schema:description "Danau luas di bawah lereng Pegunungan Cyclops di Papua." ;
+    schema:location "Jayapura, Papua" ;
+    schema:category "Danau" .
+
+<http://example.com/wisata/taman-nasional-wakatobi> a schema:TouristAttraction ;
+    schema:name "Taman Nasional Wakatobi" ;
+    schema:description "Taman nasional laut dengan keanekaragaman terumbu karang tinggi." ;
+    schema:location "Sulawesi Tenggara" ;
+    schema:category "Taman Laut" .
+
+<http://example.com/wisata/gunung-kelimutu> a schema:TouristAttraction ;
+    schema:name "Gunung Kelimutu" ;
+    schema:description "Gunung berapi dengan tiga danau kawah berwarna berbeda." ;
+    schema:location "Ende, Nusa Tenggara Timur" ;
+    schema:category "Gunung" .
+
+<http://example.com/wisata/candi-muara-takus> a schema:TouristAttraction ;
+    schema:name "Candi Muara Takus" ;
+    schema:description "Kompleks candi Buddha kuno dari Kerajaan Sriwijaya." ;
+    schema:location "Kampar, Riau" ;
+    schema:category "Cagar Budaya" .
+
+<http://example.com/wisata/pantai-ngobaran> a schema:TouristAttraction ;
+    schema:name "Pantai Ngobaran" ;
+    schema:description "Pantai eksotis dengan suasana religius dan pura di tebing." ;
+    schema:location "Gunung Kidul, Yogyakarta" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/pulau-sepa> a schema:TouristAttraction ;
+    schema:name "Pulau Sepa" ;
+    schema:description "Pulau kecil di Kepulauan Seribu dengan pasir putih halus dan air jernih." ;
+    schema:location "Kepulauan Seribu, DKI Jakarta" ;
+    schema:category "Pulau" .
+
+<http://example.com/wisata/bukit-pentulu-indah> a schema:TouristAttraction ;
+    schema:name "Bukit Pentulu Indah" ;
+    schema:description "Tempat sunrise dan kabut pagi seperti negeri di atas awan." ;
+    schema:location "Kebumen, Jawa Tengah" ;
+    schema:category "Bukit" .
+
+<http://example.com/wisata/gunung-batur> a schema:TouristAttraction ;
+    schema:name "Gunung Batur" ;
+    schema:description "Gunung berapi aktif dengan pemandangan Danau Batur di Bali." ;
+    schema:location "Kintamani, Bali" ;
+    schema:category "Gunung" .
+
+<http://example.com/wisata/pantai-balekambang> a schema:TouristAttraction ;
+    schema:name "Pantai Balekambang" ;
+    schema:description "Pantai yang dijuluki Tanah Lot-nya Jawa Timur." ;
+    schema:location "Malang, Jawa Timur" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/danau-maninjau> a schema:TouristAttraction ;
+    schema:name "Danau Maninjau" ;
+    schema:description "Danau vulkanik dengan jalur kelok 44 yang terkenal." ;
+    schema:location "Agam, Sumatera Barat" ;
+    schema:category "Danau" .
+
+<http://example.com/wisata/puncak-lawang> a schema:TouristAttraction ;
+    schema:name "Puncak Lawang" ;
+    schema:description "Tempat menikmati panorama Danau Maninjau dari ketinggian." ;
+    schema:location "Agam, Sumatera Barat" ;
+    schema:category "Bukit" .
+
+<http://example.com/wisata/air-terjun-madakaripura> a schema:TouristAttraction ;
+    schema:name "Air Terjun Madakaripura" ;
+    schema:description "Air terjun tertinggi di Jawa yang diyakini tempat pertapaan Gajah Mada." ;
+    schema:location "Probolinggo, Jawa Timur" ;
+    schema:category "Air Terjun" .
+
+<http://example.com/wisata/pantai-tanjung-lesung> a schema:TouristAttraction ;
+    schema:name "Pantai Tanjung Lesung" ;
+    schema:description "Pantai eksklusif dengan pasir putih dan spot snorkeling." ;
+    schema:location "Pandeglang, Banten" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/air-terjun-sipiso-piso> a schema:TouristAttraction ;
+    schema:name "Air Terjun Sipiso-piso" ;
+    schema:description "Air terjun spektakuler setinggi 120 meter di dekat Danau Toba." ;
+    schema:location "Karo, Sumatera Utara" ;
+    schema:category "Air Terjun" .
+
+<http://example.com/wisata/kawah-putih-ciwidey> a schema:TouristAttraction ;
+    schema:name "Kawah Putih Ciwidey" ;
+    schema:description "Danau kawah vulkanik dengan air berwarna hijau toska." ;
+    schema:location "Bandung, Jawa Barat" ;
+    schema:category "Kawah" .
+
+<http://example.com/wisata/pantai-tiga-warna> a schema:TouristAttraction ;
+    schema:name "Pantai Tiga Warna" ;
+    schema:description "Pantai cantik dengan gradasi tiga warna laut dan ekowisata." ;
+    schema:location "Malang, Jawa Timur" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/bukit-teletubbies> a schema:TouristAttraction ;
+    schema:name "Bukit Teletubbies" ;
+    schema:description "Bukit hijau bergelombang mirip latar belakang acara Teletubbies." ;
+    schema:location "Bromo, Jawa Timur" ;
+    schema:category "Bukit" .
+
+<http://example.com/wisata/pulau-misool> a schema:TouristAttraction ;
+    schema:name "Pulau Misool" ;
+    schema:description "Salah satu pulau utama di Raja Ampat yang kaya biota laut." ;
+    schema:location "Raja Ampat, Papua Barat" ;
+    schema:category "Pulau" .
+
+<http://example.com/wisata/pantai-papuma> a schema:TouristAttraction ;
+    schema:name "Pantai Papuma" ;
+    schema:description "Pantai eksotis dengan tebing batu dan pasir putih di Jember." ;
+    schema:location "Jember, Jawa Timur" ;
+    schema:category "Pantai" .
+
+<http://example.com/wisata/danau-ranu-kumbolo> a schema:TouristAttraction ;
+    schema:name "Danau Ranu Kumbolo" ;
+    schema:description "Danau indah di jalur pendakian Gunung Semeru." ;
+    schema:location "Lumajang, Jawa Timur" ;
+    schema:category "Danau" .
+
+<http://example.com/wisata/pulau-maratua> a schema:TouristAttraction ;
+    schema:name "Pulau Maratua" ;
+    schema:description "Pulau tropis di Kalimantan Timur dengan resor atas laut." ;
+    schema:location "Berau, Kalimantan Timur" ;
     schema:category "Pulau" .
