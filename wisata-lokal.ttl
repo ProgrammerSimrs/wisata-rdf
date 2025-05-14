@@ -60,77 +60,76 @@
     schema:location "Bangli, Bali" ;
     schema:category "Desa Wisata" .
 
-<!-- Pulau Komodo -->
+
 <http://example.com/wisata/pulau-komodo> a schema:TouristAttraction ;
     schema:name "Pulau Komodo" ;
     schema:description "Rumah bagi komodo, kadal terbesar di dunia, dan objek wisata alam." ;
     schema:location "Nusa Tenggara Timur" ;
     schema:category "Taman Nasional" .
 
-<!-- Pulau Bali -->
+
 <http://example.com/wisata/pulau-bali> a schema:TouristAttraction ;
     schema:name "Pulau Bali" ;
     schema:description "Destinasi wisata terkenal dengan pantainya, budaya, dan keindahan alamnya." ;
     schema:location "Bali" ;
     schema:category "Pulau" .
 
-<!-- Candi Prambanan -->
+
 <http://example.com/wisata/candi-prambanan> a schema:TouristAttraction ;
     schema:name "Candi Prambanan" ;
     schema:description "Kompleks candi Hindu terbesar di Indonesia, terletak di Yogyakarta." ;
     schema:location "Sleman, Yogyakarta" ;
     schema:category "Cagar Budaya" .
 
-<!-- Taman Safari Indonesia -->
 <http://example.com/wisata/taman-safari-indonesia> a schema:TouristAttraction ;
     schema:name "Taman Safari Indonesia" ;
     schema:description "Taman safari dengan berbagai macam satwa dari seluruh dunia." ;
     schema:location "Bogor, Jawa Barat" ;
     schema:category "Taman Safari" .
 
-<!-- Pulau Belitung -->
+
 <http://example.com/wisata/pulau-belitung> a schema:TouristAttraction ;
     schema:name "Pulau Belitung" ;
     schema:description "Pulau dengan pantai-pantai cantik dan batu granit raksasa." ;
     schema:location "Belitung, Bangka Belitung" ;
     schema:category "Pulau" .
 
-<!-- Gunung Rinjani -->
+
 <http://example.com/wisata/gunung-rinjani> a schema:TouristAttraction ;
     schema:name "Gunung Rinjani" ;
     schema:description "Gunung tertinggi kedua di Indonesia yang terkenal dengan trekking dan Danau Segara Anak." ;
     schema:location "Lombok, Nusa Tenggara Barat" ;
     schema:category "Gunung" .
 
-<!-- Pantai Kuta -->
+
 <http://example.com/wisata/pantai-kuta> a schema:TouristAttraction ;
     schema:name "Pantai Kuta" ;
     schema:description "Pantai terkenal di Bali, populer di kalangan wisatawan mancanegara dengan ombak besar dan kehidupan malam yang meriah." ;
     schema:location "Badung, Bali" ;
     schema:category "Pantai" .
 
-<!-- Taman Nasional Bromo Tengger Semeru -->
+
 <http://example.com/wisata/taman-nasional-bromo-tengger-semeru> a schema:TouristAttraction ;
     schema:name "Taman Nasional Bromo Tengger Semeru" ;
     schema:description "Taman nasional yang terkenal dengan Gunung Bromo dan Semeru, destinasi pendakian populer di Jawa Timur." ;
     schema:location "Probolinggo, Jawa Timur" ;
     schema:category "Taman Nasional" .
 
-<!-- Gunung Merapi -->
+
 <http://example.com/wisata/gunung-merapi> a schema:TouristAttraction ;
     schema:name "Gunung Merapi" ;
     schema:description "Gunung berapi aktif yang terkenal dengan letusan dahsyatnya dan pemandangan menakjubkan." ;
     schema:location "Yogyakarta / Jawa Tengah" ;
     schema:category "Gunung" .
 
-<!-- Pulau Derawan -->
+
 <http://example.com/wisata/pulau-derawan> a schema:TouristAttraction ;
     schema:name "Pulau Derawan" ;
     schema:description "Pulau tropis dengan kehidupan bawah laut yang kaya dan pantai yang indah." ;
     schema:location "Berau, Kalimantan Timur" ;
     schema:category "Pulau" .
 
-<!-- Pulau Weh -->
+
 <http://example.com/wisata/pulau-weh> a schema:TouristAttraction ;
     schema:name "Pulau Weh" ;
     schema:description "Pulau kecil di Aceh yang terkenal dengan keindahan alam bawah lautnya dan lokasi menyelam yang luar biasa." ;
